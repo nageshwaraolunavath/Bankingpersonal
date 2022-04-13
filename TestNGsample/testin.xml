@@ -1,0 +1,22 @@
+<suite name="Gmail test suite">
+<parameter name="appurl" value="http://google.com"></parameter>
+<parameter name="email" value="lnr12jun@gmail.com"></parameter>
+ 
+ <test name="Send mail test">
+ 
+ <classes>
+ <class name="testing.demos.GmailTest"></class>
+</classes>
+ </test>
+ <test name="Receive mail test">
+ <classes>
+ <class name="testing.demos.ReceiveMailTest"></class>
+ 
+ 
+ </classes>
+ 
+ 
+ 
+ </test>
+
+</suite>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Gmail test suite" duration-ms="1508" started-at="2022-03-24T12:17:08Z" finished-at="2022-03-24T12:17:10Z">
+    <groups>
+    </groups>
+    <test name="Send mail test" duration-ms="195" started-at="2022-03-24T12:17:08Z" finished-at="2022-03-24T12:17:08Z">
+      <class name="testing.demos.GmailTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:testing.demos.GmailTest@6d8a00e3]" name="login" is-config="true" duration-ms="74" started-at="2022-03-24T17:47:08Z" finished-at="2022-03-24T17:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="SendMail(java.lang.String)[pri:0, instance:testing.demos.GmailTest@6d8a00e3]" name="SendMail" duration-ms="42" started-at="2022-03-24T17:47:08Z" finished-at="2022-03-24T17:47:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[lnr12jun@gmail.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SendMail -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testing.demos.GmailTest@6d8a00e3]" name="logout" is-config="true" duration-ms="0" started-at="2022-03-24T17:47:08Z" finished-at="2022-03-24T17:47:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testing.demos.GmailTest -->
+    </test> <!-- Send mail test -->
+    <test name="Receive mail test" duration-ms="4" started-at="2022-03-24T12:17:10Z" finished-at="2022-03-24T12:17:10Z">
+      <class name="testing.demos.ReceiveMailTest">
+        <test-method status="PASS" signature="receivemail(java.lang.String)[pri:0, instance:testing.demos.ReceiveMailTest@548a9f61]" name="receivemail" duration-ms="0" started-at="2022-03-24T17:47:10Z" finished-at="2022-03-24T17:47:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://google.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- receivemail -->
+        <test-method status="PASS" signature="login()[pri:0, instance:testing.demos.ReceiveMailTest@548a9f61]" name="login" is-config="true" duration-ms="0" started-at="2022-03-24T17:47:10Z" finished-at="2022-03-24T17:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testing.demos.ReceiveMailTest@548a9f61]" name="logout" is-config="true" duration-ms="0" started-at="2022-03-24T17:47:10Z" finished-at="2022-03-24T17:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testing.demos.ReceiveMailTest -->
+    </test> <!-- Receive mail test -->
+  </suite> <!-- Gmail test suite -->
+</testng-results>
